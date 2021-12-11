@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class Task14 {
 
         public static void main (String[]args){
-            Scanner scanner = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             System.out.print("Enter num: ");
-            int N = scanner.nextInt();
-            for (int i = 1; i <= N; i++) {
+            int n = sc.nextInt();
+            for (int i = 1; i <= n; i++) {
                 System.out.print("Enter num: ");
-                while (i <= N) {
+                while (i <= n) {
                     System.out.print(i + " ");
                     i *= 2;
                 }

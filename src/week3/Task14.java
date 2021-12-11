@@ -4,21 +4,17 @@ package week3;
 import java.util.Scanner;
 
 public class Task14 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("");
-        int n = sc.nextInt();
-        int a = 2;
-        int result = 1;
 
-        for (int i=1; i<n ; i++){
-            result = result*a;
-            System.out.println(result);
-            if (result>n){
-                result=result/2;
-                break;
+        public static void main (String[]args){
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter num: ");
+            int N = scanner.nextInt();
+            for (int i = 1; i <= N; i++) {
+                System.out.print("Enter num: ");
+                while (i <= N) {
+                    System.out.print(i + " ");
+                    i *= 2;
+                }
             }
         }
-        System.out.println(result);
     }
-}

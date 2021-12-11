@@ -24,14 +24,5 @@ class Task1 {
 
         double num6 = num5;
         System.out.println(num6);
-
-
-
-
-
-
-
-
-
     }
 }

@@ -28,7 +28,5 @@ public class Task10 {
         }else {
             System.out.println("Can`t be");
         }
-
     }
-
 }

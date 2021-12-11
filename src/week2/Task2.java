@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Task2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your number: ");
+        System.out.println("Enter number: ");
 
         double num = scanner.nextDouble();
-        System.out.println("duble num is:" + num);
+        System.out.println("double num is:" + num);
 
         float num1 = (float) num;
         System.out.println("float num is: " + num1);

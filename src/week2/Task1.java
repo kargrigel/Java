@@ -5,7 +5,7 @@ import java.util.Scanner;
 class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter is a number: ");
+        System.out.println("Enter number: ");
 
         byte number = scanner.nextByte();
         System.out.println(number);
